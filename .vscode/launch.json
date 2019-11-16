@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<bmicalculator>",
+            "request": "launch",
+            "mainClass": "bmi.App",
+            "projectName": "bmicalculator"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "vmArgs": "--module-path E:/Java/.lib/javafx-sdk-13.0.1/lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "${file}",
+            "projectName": "bmicalculator"
+        }
+    ]
+}

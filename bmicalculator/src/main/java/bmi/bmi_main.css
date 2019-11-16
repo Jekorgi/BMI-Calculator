@@ -1,0 +1,25 @@
+.editfield {
+    -fx-border-color: #00b1e1;
+    -fx-border-radius: 50%;
+    -fx-padding: 5 10 5 10;
+    -fx-color: rgba(0, 0, 0, 0.6);
+}
+
+.editfield:hover {
+    -fx-cursor: text;
+}
+
+
+.editfield:focused {
+    -fx-effect: dropshadow(gaussian, rgba(#dd0034, 0.7), 13, 0.1, 0, 0);
+}
+
+.btn {
+    -fx-color: rgba(0, 0, 0, 0.5);
+    -fx-border: none;
+}
+
+.btn:hover {
+    -fx-cursor: hand;
+    -fx-paint: none;
+}
